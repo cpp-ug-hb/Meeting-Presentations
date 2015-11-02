@@ -1,0 +1,91 @@
+@import url(vendor/Yanone_Kaffeesatz.css);
+@import url(vendor/PT_Sans.css);
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+}
+h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+}
+
+.remark-slide {
+	background-color: black;
+}
+
+.remark-slide-content {
+	background-color: white;
+	padding: 0px 0px
+}
+
+.remark-slide-content > *{
+	margin-left: 1rem
+}
+
+.remark-slide-content h1 {
+    background-color: #374FFF;
+    color: #FFFFFF;
+    font-size: 4rem;
+    margin-top: 0px;
+    padding: 10px 1rem;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0.5rem;
+}
+
+.remark-slide-content h2 { font-size: 3rem; }
+.remark-slide-content h3 { font-size: 2.5rem; }
+.remark-slide-content {
+	background-color: white;
+	font-size: 1.9rem;
+}
+
+.remark-slide-number {
+	font-size: 1.3rem;
+}
+
+.footnote {
+        position: absolute;
+        bottom: 3rem;
+}
+
+li p {
+	line-height: 1.6rem;
+}
+.red { color: #FF4701; }
+.large { font-size: 2rem; }
+a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+}
+
+.pull-left {
+        float: left;
+        width: 47%;
+}
+.pull-right {
+        float: right;
+        width: 47%;
+}
+.pull-right ~ p {
+        clear: both;
+}
+
+/* Two-column layout */
+.left-column {
+        color: #777;
+        width: 45%;
+        height: 92%;
+        float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+	      color: #000;
+}
+.right-column {
+	width: 45%;
+	float: right;
+	padding-top: 1rem;
+      }
